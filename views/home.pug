@@ -1,0 +1,32 @@
+extends base.pug
+
+block scripts
+  script(src="/static/js/home.js")
+
+
+block style
+    style
+      include ../static/css/home.css
+
+block content 
+
+    #intro
+        div
+            div#mainintro
+                h1 I am a full stack web developer
+            div#description
+                p I am good at developing fully responsive sites with beautiful looking websites
+        #image
+            img(src="/static/img/side image.jpg", alt="website")    
+    .items
+        .item.item1 Click and Drag or scroll 
+        .item.item2 My Skills are in upcoming cards
+        .item.item3 Full Stack Web Developer
+        .item.item4 Good in HTML, CSS and Javascript
+        .item.item5 Develop Backend with nodejs
+        .item.item6 Manage Database with mongodb
+        .item.item7 Good with framework express
+        .item.item8 Experienced in view engine pug
+        .item.item9 Create Responsive web designs
+        .item.item10 Can create a interactive front 
+

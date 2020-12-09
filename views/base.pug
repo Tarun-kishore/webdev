@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="IE=7")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    meta(name="description", content="This is a portfolio website of a web developer")
+    meta(name="keywords", content="website,development, web, developer,frontend, designer, web developer, backend, node.js, mongodb, express, pug, template")
+    meta(name="robots", content="INDEX,FOLLOW")
+    title Web Development Portfolio
+    style
+        include ../static/css/base.css
+    block style 
+  body
+    nav#navbar
+        ul
+            li #[a(href="/") Home]
+            li #[a(href="/about") About]
+            li #[a(href="/services") Services]
+            li #[a(href="/contact") Contact]
+            
+    block content
+    footer#footer
+        | Copyright © 2020| All rights reserved
+    block scripts

@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    
+}
+
+#navbar{
+    height: 10vh;
+    width: 100vw;
+    background-color: #d43b3b;
+    padding: 18px 14px;
+    font-family: 'Yeon Sung' ;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: white; 
+    font-size: 5vh;
+    text-decoration: none;
+    padding: 13px 20px;
+}
+
+#navbar li a:hover{
+    color: black; 
+    font-size: 7vh;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    height: 5vw;
+    text-align: center;
+}
+
+@media screen and (max-width: 573px){
+    #navbar{
+        height: 10vh;
+    }
+    #navbar li a{
+        padding: 4px;
+        margin-bottom: 2px;
+        font-size: 6vw;
+    }
+    #navbar li a:hover{ 
+        font-size: 8vw;
+    }
+
+}
+
